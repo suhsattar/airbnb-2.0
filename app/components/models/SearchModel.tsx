@@ -21,8 +21,8 @@ enum STEPS {
 
 const SearchModel = () => {
   const router = useRouter();
-  const params = useSearchParams();
   const searchModel = useSearchModel();
+  const params = useSearchParams();
 
   const [location, setLocation] = useState<CountrySelectValue>();
   const [step, setStep] = useState(STEPS.LOCATION);

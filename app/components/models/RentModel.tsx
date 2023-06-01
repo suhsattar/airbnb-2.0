@@ -94,7 +94,7 @@ const RentModel = () => {
     axios
       .post("/api/listings", data)
       .then(() => {
-        toast.success("Listeing Created!");
+        toast.success("Listing Created!");
         router.refresh();
         reset();
         setStep(STEPS.CATEGORY);

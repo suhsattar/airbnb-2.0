@@ -1,7 +1,6 @@
 "use client";
 
 import { signIn } from "next-auth/react";
-import axios from "axios";
 import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import { useCallback, useState } from "react";
@@ -10,7 +9,6 @@ import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import useRegisterModel from "@/app/hooks/useRegisterModel";
 import useLoginModel from "@/app/hooks/useLoginModel";
 import Model from "./Model";
-import { BiHeading } from "react-icons/bi";
 import Heading from "../Heading";
 import Input from "../inputs/Input";
 import { toast } from "react-hot-toast";
